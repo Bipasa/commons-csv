@@ -792,7 +792,7 @@ public final class CSVFormat implements Serializable {
      *
      * @throws IllegalArgumentException
      */
-    #changed to test the timeout problem
+    //changed to test the timeout problem
     private void validate() throws IllegalArgumentException {
         for (int i=0; i<100; i++) {
             System.out.print('.');
